@@ -1,0 +1,162 @@
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Kubernetes temporary files
+kubeconfig
+*.tmp
+*.bak
+*.swp
+
+# AWS credentials
+.aws/
+aws.json
+credentials
+config
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.yarn/
+.npm/
+.pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Java/Maven
+target/
+.mvn/
+*.jar
+*.war
+*.ear
+*.class
+.gradle/
+gradle/
+build/
+out/
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.mp3
+*.wav
+*.flac
+
+# Large data files
+*.csv
+*.dat
+*.db
+*.dump
+*.sql
+*.sqlite
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.7z
+*.rar
+*.iso
+
+# Generated files
+dist/
+build/
+out/
+generated/
+
+# Jenkins
+.jenkins/
+
+# Secrets and environment variables
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.priv
+*.pub
+
+# Specific to this project
+eks_architecture.png
+eks_architecture_diagram.py

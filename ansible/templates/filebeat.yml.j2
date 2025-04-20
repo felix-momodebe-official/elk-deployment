@@ -1,0 +1,8 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /home/ubuntu/maven-web-app/target/app.log
+
+output.logstash:
+  hosts: ["{{ elk_server_private_ip }}:5044"]

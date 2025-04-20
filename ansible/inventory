@@ -1,0 +1,8 @@
+[elk]
+54.89.145.243 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/my_default_keypair.pem
+
+[client]
+18.205.245.185 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/my_default_keypair.pem
+
+[all:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
