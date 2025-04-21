@@ -2,6 +2,9 @@
 
 This project automates the deployment of an ELK Stack (Elasticsearch, Logstash, Kibana) alongside a Java application that generates logs, using Terraform and Ansible. The setup provisions two AWS EC2 instances: one for the ELK stack and another for the Java application, which sends logs to the ELK stack for processing and visualization.
 
+![image](https://github.com/user-attachments/assets/217afd95-7d1a-4058-a5ca-af39be5bda43)
+
+
 ## Prerequisites
 
 Before starting, ensure the following are in place:
